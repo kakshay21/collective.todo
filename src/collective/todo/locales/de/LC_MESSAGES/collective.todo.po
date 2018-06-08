@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-08 18:31+0000\n"
+"POT-Creation-Date: 2018-06-08 19:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,8 +9,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: de\n"
+"Language-Name: German\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
@@ -18,27 +18,31 @@ msgstr ""
 msgid "A list of talks:"
 msgstr "Eine Liste von Vorträgen"
 
-#: ../browser/views.py:16
+#: ../browser/views.py:19
 msgid "Dexterity is the new default!"
 msgstr "Geschicklichkeit ist der neue Standard!"
 
-#: ../browser/views.py:23
+#: ../browser/views.py:26
 msgid "Diazo is a powerful tool for theming!"
 msgstr "Diazo ist ein mächtiges Werkzeug für das Thema!"
+
+#: ../browser/views.py:14
+msgid "I can be reused"
+msgstr "Ich kann wiederverwendet werden"
 
 #: ../configure.zcml:29
 msgid "Installs the collective.todo add-on."
 msgstr "Installiert das Add-On collective.todo."
 
-#: ../browser/views.py:25
+#: ../browser/views.py:28
 msgid "Magic templates in Plone 5"
-msgstr ""
-
-#: ../browser/views.py:18
-msgid "Mosaic will be the next big thing."
 msgstr "Magische Vorlagen in Plone 5"
 
 #: ../browser/views.py:21
+msgid "Mosaic will be the next big thing."
+msgstr "Mosaik wird die nächste große Sache sein"
+
+#: ../browser/views.py:24
 msgid "The State of Plone"
 msgstr "Der Bundesstaat Plone"
 

@@ -29,6 +29,7 @@
   <browser:page
   for="*"
   name="macros"
+  class=".views.DemoView"
   template="templates/smallmacros.pt"
   permission="zope2.View"
   />

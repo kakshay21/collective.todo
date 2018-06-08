@@ -1,15 +1,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
       lang="en"
       metal:use-macro="context/main_template/macros/master"
-      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
       i18n:domain="ploneconf.site">
 <body>
+<div id="mobile-header" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="plomobile">
 <metal:content-core fill-slot="content-core">
   <h2 i18n:translate="" tal:content="python: view.title()" />
-    <table class="listing">
+    <table class="listing" i18n:translate="">
       <tr>
-          <th i18n:translate="">Title</th>
-          <th i18n:translate="">Topics</th>
+          <th>Title</th>
+          <th>Topics</th>
       </tr>
 
       <tr tal:repeat="talk python:view.talks()">
@@ -28,5 +28,6 @@
     Instead of this the content of the macro will appear...
   </div>
 </metal:content-core>
+</div>
 </body>
 </html>

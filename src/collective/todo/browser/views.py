@@ -10,6 +10,9 @@ class DemoView(BrowserView):
     def title(self):
         return _(u'A list of talks:')
 
+    def for_macros(self):
+        return _(u'I can be reused')
+
     def talks(self):
         results = []
         data = [
