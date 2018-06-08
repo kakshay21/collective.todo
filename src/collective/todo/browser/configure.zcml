@@ -18,4 +18,20 @@
       directory="static"
       />
 
+  <browser:page
+     name="translate"
+     for="*"
+     class=".views.DemoView"
+     template="templates/translate.pt"
+     permission="zope2.View"
+     />
+
+  <browser:page
+  for="*"
+  name="macros"
+  template="templates/smallmacros.pt"
+  permission="zope2.View"
+  />
+
+
 </configure>
