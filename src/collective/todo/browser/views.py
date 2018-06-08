@@ -1,27 +1,28 @@
 # -*- coding: utf-8 -*-
 from Products.Five.browser import BrowserView
 from operator import itemgetter
+from collective.todo import _
 
 
 class DemoView(BrowserView):
     """A demo listing"""
 
     def title(self):
-        return u'A list of talks:'
+        return _(u'A list of talks:')
 
     def talks(self):
         results = []
         data = [
-            {'title': 'Dexterity is the new default!',
+            {'title': _('Dexterity is the new default!'),
              'subjects': ('content-types', 'dexterity')},
-            {'title': 'Mosaic will be the next big thing.',
+            {'title': _('Mosaic will be the next big thing.'),
              'subjects': ('layout', 'deco', 'views'),
              'url': 'https://www.youtube.com/watch?v=QSNufxaYb1M'},
-            {'title': 'The State of Plone',
+            {'title': _('The State of Plone'),
              'subjects': ('keynote',)},
-            {'title': 'Diazo is a powerful tool for theming!',
+            {'title': _('Diazo is a powerful tool for theming!'),
              'subjects': ('design', 'diazo', 'xslt')},
-            {'title': 'Magic templates in Plone 5',
+            {'title': _('Magic templates in Plone 5'),
              'subjects': ('templates', 'TAL'),
              'url': 'http://www.starzel.de/blog/magic-templates-in-plone-5'},
         ]

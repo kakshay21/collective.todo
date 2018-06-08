@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-08 09:16+0000\n"
+"POT-Creation-Date: 2018-06-08 18:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,32 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.todo\n"
 
+#: ../browser/views.py:11
+msgid "A list of talks:"
+msgstr ""
+
+#: ../browser/views.py:16
+msgid "Dexterity is the new default!"
+msgstr ""
+
+#: ../browser/views.py:23
+msgid "Diazo is a powerful tool for theming!"
+msgstr ""
+
 #: ../configure.zcml:29
 msgid "Installs the collective.todo add-on."
+msgstr ""
+
+#: ../browser/views.py:25
+msgid "Magic templates in Plone 5"
+msgstr ""
+
+#: ../browser/views.py:18
+msgid "Mosaic will be the next big thing."
+msgstr ""
+
+#: ../browser/views.py:21
+msgid "The State of Plone"
 msgstr ""
 
 #: ../configure.zcml:38

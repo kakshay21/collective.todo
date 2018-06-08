@@ -16,19 +16,19 @@ msgstr ""
 
 #: ../browser/views.py:11
 msgid "A list of talks:"
-msgstr ""
+msgstr "Eine Liste von Vorträgen"
 
 #: ../browser/views.py:16
 msgid "Dexterity is the new default!"
-msgstr ""
+msgstr "Geschicklichkeit ist der neue Standard!"
 
 #: ../browser/views.py:23
 msgid "Diazo is a powerful tool for theming!"
-msgstr ""
+msgstr "Diazo ist ein mächtiges Werkzeug für das Thema!"
 
 #: ../configure.zcml:29
 msgid "Installs the collective.todo add-on."
-msgstr ""
+msgstr "Installiert das Add-On collective.todo."
 
 #: ../browser/views.py:25
 msgid "Magic templates in Plone 5"
@@ -36,11 +36,11 @@ msgstr ""
 
 #: ../browser/views.py:18
 msgid "Mosaic will be the next big thing."
-msgstr ""
+msgstr "Magische Vorlagen in Plone 5"
 
 #: ../browser/views.py:21
 msgid "The State of Plone"
-msgstr ""
+msgstr "Der Bundesstaat Plone"
 
 #: ../configure.zcml:38
 msgid "Uninstalls the collective.todo add-on."
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../configure.zcml:29
 msgid "collective.todo"
-msgstr ""
+msgstr "Deinstalliert das Add-On collective.todo."
 
 #: ../configure.zcml:38
 msgid "collective.todo (uninstall)"
