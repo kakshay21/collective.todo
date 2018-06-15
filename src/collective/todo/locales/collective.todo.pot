@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-15 09:37+0000\n"
+"POT-Creation-Date: 2018-06-15 10:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgstr ""
 msgid "Installs the collective.todo add-on."
 msgstr ""
 
-#: ../browser/templates/translate.pt:10
+#: ../browser/templates/translate.pt:8
 msgid "One Keynote in the schedule"
 msgstr ""
 
-#: ../browser/templates/translate.pt:7
+#: ../browser/templates/translate.pt:16
 msgid "This is a static content."
 msgstr ""
 

@@ -1,25 +1,25 @@
-<html
-metal:use-macro="context/main_template/macros/master">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master">
 <body>
-<div id="mobile-header" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="collective.todo">
 <metal:content-core fill-slot="content-core">
+<div id="mobile-header" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="collective.todo">
   <h2 tal:content="python: view.title()" />
-    <p i18n:translate="">
-    This is a static content.
-    </p>
-    <p i18n:translate="" tal:define="talks python:['Dexterity for the win!',
+    <p tal:define="talks python:['Dexterity for the win!',
                              'Deco is the future',
                              'A keynote on some weird topic',
                              'The talk that I did not submit']"
-    tal:condition="python:'A keynote on some weird topic' in talks">
+        i18n:translate=""
+        tal:condition="python:'A keynote on some weird topic' in talks">
     One Keynote in the schedule
     </p>
-    
-
+    <p i18n:translate="">
+    This is a static content.
+    </p>
   <div metal:use-macro="context/@@macros/my_macro">
     Instead of this the content of the macro will appear...
   </div>
-</metal:content-core>
 </div>
+</metal:content-core>
 </body>
 </html>
