@@ -1,6 +1,4 @@
 
-<div id="mobile-header" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="plomobile">
 <div metal:define-macro="my_macro">
-    <h4 i18n:translate="" tal:content="python: view.for_macros()" />
-</div>
+    <h4 tal:content="python: view.for_macros()" />
 </div>

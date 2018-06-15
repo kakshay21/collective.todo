@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-08 19:23+0000\n"
+"POT-Creation-Date: 2018-06-15 09:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,6 @@ msgstr ""
 msgid "A list of talks:"
 msgstr "Eine Liste von Vorträgen"
 
-#: ../browser/views.py:19
-msgid "Dexterity is the new default!"
-msgstr "Geschicklichkeit ist der neue Standard!"
-
-#: ../browser/views.py:26
-msgid "Diazo is a powerful tool for theming!"
-msgstr "Diazo ist ein mächtiges Werkzeug für das Thema!"
-
 #: ../browser/views.py:14
 msgid "I can be reused"
 msgstr "Ich kann wiederverwendet werden"
@@ -34,26 +26,22 @@ msgstr "Ich kann wiederverwendet werden"
 msgid "Installs the collective.todo add-on."
 msgstr "Installiert das Add-On collective.todo."
 
-#: ../browser/views.py:28
-msgid "Magic templates in Plone 5"
-msgstr "Magische Vorlagen in Plone 5"
+#: ../browser/templates/translate.pt:10
+msgid "One Keynote in the schedule"
+msgstr "Eine Keynote im Zeitplan"
 
-#: ../browser/views.py:21
-msgid "Mosaic will be the next big thing."
-msgstr "Mosaik wird die nächste große Sache sein"
-
-#: ../browser/views.py:24
-msgid "The State of Plone"
-msgstr "Der Bundesstaat Plone"
+#: ../browser/templates/translate.pt:7
+msgid "This is a static content."
+msgstr "Dies ist ein statischer Inhalt."
 
 #: ../configure.zcml:38
 msgid "Uninstalls the collective.todo add-on."
-msgstr ""
+msgstr "Deinstalliert das Add-On collective.todo."
 
 #: ../configure.zcml:29
 msgid "collective.todo"
-msgstr "Deinstalliert das Add-On collective.todo."
+msgstr "collective.todo"
 
 #: ../configure.zcml:38
 msgid "collective.todo (uninstall)"
-msgstr ""
+msgstr "collective.todo (deinstallieren)"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-08 19:23+0000\n"
+"POT-Creation-Date: 2018-06-15 09:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,14 +21,6 @@ msgstr ""
 msgid "A list of talks:"
 msgstr ""
 
-#: ../browser/views.py:19
-msgid "Dexterity is the new default!"
-msgstr ""
-
-#: ../browser/views.py:26
-msgid "Diazo is a powerful tool for theming!"
-msgstr ""
-
 #: ../browser/views.py:14
 msgid "I can be reused"
 msgstr ""
@@ -37,16 +29,12 @@ msgstr ""
 msgid "Installs the collective.todo add-on."
 msgstr ""
 
-#: ../browser/views.py:28
-msgid "Magic templates in Plone 5"
+#: ../browser/templates/translate.pt:10
+msgid "One Keynote in the schedule"
 msgstr ""
 
-#: ../browser/views.py:21
-msgid "Mosaic will be the next big thing."
-msgstr ""
-
-#: ../browser/views.py:24
-msgid "The State of Plone"
+#: ../browser/templates/translate.pt:7
+msgid "This is a static content."
 msgstr ""
 
 #: ../configure.zcml:38
